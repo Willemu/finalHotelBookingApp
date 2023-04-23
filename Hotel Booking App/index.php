@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="css/common.css">
 
     <style>
+
+      
                 
         .availability-form{
           margin-top: -50px;
-          z-index: 11;
+          z-index: 9999;
           position: relative;
         }
 
@@ -389,10 +391,7 @@
     </div>
     <div class="swiper-pagination"></div>
   </div>
-</div>
-
-<br><br><br>
-
+  
 <!-- Login Modal -->
 <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -486,8 +485,6 @@
   </div>
 </div>
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -548,12 +545,5 @@
 
   </script>
 
-  <!--loop: true,
-      autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,-->
-
 </body>
-
-
 </html>
