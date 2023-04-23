@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/common.css">
-    
+
     <style>
                 
         .availability-form{
@@ -32,6 +32,7 @@
 </head>
 <body>
 
+<!--Navbar and Navbar Modals -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">Ultimate Hotel</a>
@@ -145,7 +146,7 @@
   <div class="row">
     <div class="col-lg-4 col-md-6 my-3">
       <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-        <img src="images/Rooms/1.png" class="card-img-top" alt="room1">
+        <img src="images/Rooms/2.png" class="card-img-top" alt="room1">
       <div class="card-body">
         <h5 class="card-title">Simple Room</h5>
         <h6 class="mb-4">R2000 per night</h6>
@@ -192,17 +193,17 @@
 
     <div class="col-lg-4 col-md-6 my-3">
       <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-        <img src="images/Rooms/1.png" class="card-img-top" alt="room1">
+        <img src="images/Rooms/4.png" class="card-img-top" alt="room2">
       <div class="card-body">
-        <h5 class="card-title">Simple Room</h5>
-        <h6 class="mb-4">R2000 per night</h6>
+        <h5 class="card-title">Premier Room</h5>
+        <h6 class="mb-4">R4000 per night</h6>
         <div class="features mb-4">
           <h6 class="mb-1">Features</h6>
             <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Room
+              2 Rooms
             </span>
             <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Bathroom
+              2 Bathrooms
             </span>
             <span class="badge rounded-pill bg-light text-dark text-wrap">
               1 Balcony
@@ -239,17 +240,17 @@
 
     <div class="col-lg-4 col-md-6 my-3">
       <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-        <img src="images/Rooms/1.png" class="card-img-top" alt="room1">
+        <img src="images/Rooms/7.png" class="card-img-top" alt="room3">
       <div class="card-body">
-        <h5 class="card-title">Simple Room</h5>
-        <h6 class="mb-4">R2000 per night</h6>
+        <h5 class="card-title">Platinum Room</h5>
+        <h6 class="mb-4">R6000 per night</h6>
         <div class="features mb-4">
           <h6 class="mb-1">Features</h6>
             <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Room
+              3 Rooms
             </span>
             <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Bathroom
+              2 Bathrooms
             </span>
             <span class="badge rounded-pill bg-light text-dark text-wrap">
               1 Balcony
