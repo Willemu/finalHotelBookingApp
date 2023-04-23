@@ -70,15 +70,24 @@
 <div class="container-fluid">
   <div class="swiper swiper-container">
     <div class="swiper-wrapper">
-    <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">
+      <img src="images/carousel/1.png" class="w-100 d-block"/>
+      </div>
+      <div class="swiper-slide">
+      <img src="images/carousel/2.png" class="w-100 d-block" />
+      </div>
+      <div class="swiper-slide">
+      <img src="images/carousel/3.png" class="w-100 d-block" />
+      </div>
+      <div class="swiper-slide">
+      <img src="images/carousel/4.png" class="w-100 d-block" />
+      </div>
+      <div class="swiper-slide">
+      <img src="images/carousel/5.png" class="w-100 d-block" />
+      </div>
+      <div class="swiper-slide">
+      <img src="images/carousel/6.png" class="w-100 d-block" />
+      </div>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
@@ -100,7 +109,7 @@
       </div>
       <div class="modal-body">
         <div class="mb-3">
-          <label class="form-label">mail address</label>
+          <label class="form-label">Email address</label>
           <input type="email" class="form-control shadow-none">
        </div>
        <div class="mb-4">
