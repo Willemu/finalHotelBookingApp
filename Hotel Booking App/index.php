@@ -70,20 +70,21 @@
 <div class="container-fluid">
   <div class="swiper swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="images/carousel/1.png">
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </div>
+    <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
   </div>
+
 </div>
 
 <!-- Login Modal -->
@@ -99,7 +100,7 @@
       </div>
       <div class="modal-body">
         <div class="mb-3">
-          <label class="form-label">Email address</label>
+          <label class="form-label">mail address</label>
           <input type="email" class="form-control shadow-none">
        </div>
        <div class="mb-4">
@@ -186,9 +187,26 @@
 <script>
     var swiper = new Swiper(".swiper-container", {
       spaceBetween: 30,
-      effect: "fade",
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
   </script>
+
+  <!--loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,-->
 
 </body>
 
