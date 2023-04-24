@@ -391,6 +391,28 @@
     </div>
     <div class="swiper-pagination"></div>
   </div>
+
+
+<!--Contact Us -->
+<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">CONTACT US</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+      <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.3745981358006!2d28.184208711464944!3d-25.857145677197334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95643720fe0389%3A0xc941ff63540e5238!2sCenturion%20Mall!5e0!3m2!1sen!2sza!4v1682266601744!5m2!1sen!2sza"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+      <div class="col-lg-4 col-md-4 p-4 rounded mb-4">
+        <div class="bg-white">
+          <h5>Call Us</h5>
+          <a href="Tel: +27 111 2233" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-fill"></i>+27 111 2233</a>
+        </div>
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
   
 <!-- Login Modal -->
 <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
