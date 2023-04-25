@@ -13,7 +13,7 @@
         <div class="mb-3">
           <label class="form-label">Email address</label>
           <input type="email" class="form-control shadow-none">
-       </div>
+        </div>
        <div class="mb-4">
           <label class="form-label">Password</label>
           <input type="password" class="form-control shadow-none">
