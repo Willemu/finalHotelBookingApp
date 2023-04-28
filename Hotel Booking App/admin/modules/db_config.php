@@ -5,6 +5,7 @@
     $pass = "Winter01@";
     $db = "hotelbooking";
 
+//attempt to connect to MySQL database    
     $con = mysqli_connect($hname,$uname,$pass,$db);
 
 //message if the connection is not successful
@@ -40,11 +41,12 @@
               die("Query cannot be executed - Select"); 
             }
         }
-            else{
-             die("Query cannot be prepared - Select");
-            }
     }
 
+//}
+//else{
+ ///die("Query cannot be prepared - Select");
+//}
 
 ?> 
 
