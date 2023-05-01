@@ -1,52 +1,49 @@
 <?php
 //connecting the db(hotelbooking)
-    $hname = "localhost";
-    $uname = "root";
-    $pass = "Winter01@";
-    $db = "hotelbooking";
+$hname = "localhost";
+$uname = "root";
+$pass = "Winter01@";
+$db = "hotelbooking";
 
 //attempt to connect to MySQL database    
-    $con = mysqli_connect($hname,$uname,$pass,$db);
+$con = mysqli_connect($hname, $uname, $pass, $db);
 
 //message if the connection is not successful
-    if(!$con){
-        die("Cannot connect to Database".mysqli_connect_error());
-    }
+if (!$con) {
+    die("Cannot connect to Database" . mysqli_connect_error());
+}
 
 //parameters for whats allowed in admin login user and password blocks    
-    function filteration($data){
-        foreach($data as $key => $value){
-            $data[$key] = trim($value);
-            $data[$key] = stripcslashes($value);
-            $data[$key] = htmlspecialchars($value);
-            $data[$key] = strip_tags($value);
-        }
-        return $data;
+function filteration($data)
+{
+    foreach ($data as $key => $value) {
+        $data[$key] = trim($value);
+        $data[$key] = stripcslashes($value);
+        $data[$key] = htmlspecialchars($value);
+        $data[$key] = strip_tags($value);
     }
+    return $data;
+}
 
 //using the splat operator ...(3dots)   
-    function select($sql,$values,$datatypes)
-    {
-        $con = $GLOBALS['con'];
-        if($stmt = mysqli_prepare($con,$sql))
-        {
-            mysqli_stmt_bind_param($stmt,$datatypes,...$values);
-            if(mysqli_stmt_execute($stmt)){
-              $res = mysqli_stmt_get_result($stmt);
-              mysqli_stmt_close($stmt);
-              return $res;
-            }
-            else{
-              mysqli_stmt_close($stmt);
-              die("Query cannot be executed - Select"); 
-            }
+function select($sql,$values,$datatypes)
+{
+    $con = $GLOBALS['con'];
+    if ($stmt = mysqli_prepare($con, $sql)){
+        mysqli_stmt_bind_param($stmt, $datatypes,...$values);
+        if (mysqli_stmt_execute($stmt)){
+            $res = mysqli_stmt_get_result($stmt);
+            mysqli_stmt_close($stmt);
+            return $res;
+        } 
+        else{
+            mysqli_stmt_close($stmt);
+            die("Query cannot be executed - Select3");
         }
+    } 
+    else{
+        die("Query cannot be prepared - Select4");
     }
+}
 
-//}
-//else{
- ///die("Query cannot be prepared - Select");
-//}
-
-?> 
-
+//} begin video by 58.10 mins

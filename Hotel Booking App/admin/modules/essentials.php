@@ -1,5 +1,21 @@
 <?php
 
+  function adminLogin()
+  {
+    session_start();
+    if(!(isset($_SESSION['adminLogin']) && $_SESSION['adminLogin']==true)){
+      echo"<script>
+        window.location.href='dashboard.php';
+      </script>";
+    }
+  }
+
+  function redirect($url){
+    echo"<script>
+        window.location.href='$url';
+      </script>";
+  }
+
 //admin portal login alert
 function alert($type,$msg){
 
