@@ -1,5 +1,6 @@
 <?php
 
+//Admin login function to land on dashboardphp once user is logged in
   function adminLogin()
   {
     session_start();
@@ -8,6 +9,7 @@
         window.location.href='dashboard.php';
       </script>";
     }
+    session_regenerate_id(true);
   }
 
   function redirect($url){

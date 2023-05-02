@@ -25,7 +25,7 @@ function filteration($data)
     return $data;
 }
 
-//using the splat operator ...(3dots)   
+//login function with failure error messages   
 function select($sql,$values,$datatypes)
 {
     $con = $GLOBALS['con'];
@@ -46,4 +46,3 @@ function select($sql,$values,$datatypes)
     }
 }
 
-//} begin video by 58.10 mins

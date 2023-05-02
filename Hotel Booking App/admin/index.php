@@ -1,6 +1,15 @@
 <?php
-require("modules/essentials.php");
-require("modules/db_config.php");
+
+//link the essentialsphp to the index
+   require("modules/essentials.php");
+//link the db configfile to the index
+   require("modules/db_config.php");
+ 
+   session_start();
+    if((isset($_SESSION['adminLogin']) && $_SESSION['adminLogin']==true)){
+      redirect("dashboard.php");
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +20,7 @@ require("modules/db_config.php");
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Admin Login Portal</title>
+<!--Make sure the linkphp file is linked in the Index -->   
    <?php require("modules/links.php"); ?>
    <style>
       div.login-form {
@@ -51,7 +61,6 @@ require("modules/db_config.php");
       $res = select($query, $values, "ss");
       if ($res->num_rows == 1) {
          $row = mysqli_fetch_assoc($res);
-         session_start();
          $_SESSION['adminlogin'] = true;
          $_SESSION['adminid'] = $row['id'];
          redirect('dashboard.php');         
@@ -61,7 +70,7 @@ require("modules/db_config.php");
       }
    }
 ?>
-
+<!--Link the scriptphp to the Indexphp -->
   <?php require("modules/script.php"); ?>
 
 </body>

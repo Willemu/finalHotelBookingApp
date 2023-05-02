@@ -35,6 +35,7 @@ input::-webkit-inner-spin-button {
   height: 1.7px;
 }
 
+/*login alert css*/
 .custom-alert{
   position: fixed;
   top: 25px;
