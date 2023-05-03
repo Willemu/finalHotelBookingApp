@@ -19,10 +19,10 @@ adminLogin();
 
 <body class="bg-light">
 
-    <div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between sticky-top">
-        <h3 class="mb-0 h-font">ULTIMATE HOTELS</h3>
-        <a href="logout.php" class="btn btn-light btn-sm">LOG OUT</a>
-    </div>
+ <div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between sticky-top">
+    <h3 class="mb-0 h-font">ULTIMATE HOTELS</h3>
+    <a href="logout.php" class="btn btn-light btn-sm">LOG OUT</a>
+ </div>
 
     <div class="col-lg-2 bg-dark border-top border-3 border-secondary" id="dashboard-menu">
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -49,11 +49,24 @@ adminLogin();
                 </div>
             </div>
         </nav>
+    </div>
 
+    <div class="container-fluid" id="main-content">
+        <div class="row">
+            <div class="col-lg-10 ms-auto p-4 overflow-hidden">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+            </div>
+        </div>
     </div>
 
 <!--Link the script to the dashboardphp -->
-    <?php require("modules/script.php.php"); ?>
+    <?php require("modules/script.php"); ?>
 </body>
 
 </html>
