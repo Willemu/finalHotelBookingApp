@@ -1,6 +1,6 @@
 <?php
 
-//link the essentialsphp to the dashboardphp 
+//link the essentialsphp to the settingsphp 
 require("modules/essentials.php");
 adminLogin();
 ?>
@@ -13,7 +13,7 @@ adminLogin();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Portal - Settings</title>
-    <!--Link the Linksphp to the dashboardphp -->
+    <!--Link the Linksphp to the settingsphp -->
     <?php require("modules/links.php"); ?>
 </head>
 
@@ -31,7 +31,7 @@ adminLogin();
         </div>
     </div>
 
-<!--Link the script to the dashboardphp -->
+<!--Link the script to the settingsphp -->
     <?php require("modules/script.php"); ?>
 </body>
 
