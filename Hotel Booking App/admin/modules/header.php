@@ -10,7 +10,7 @@
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#adminDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse flex-column align-items-stretch mt-2" id="adminDropdown">
+            <div class="collapse navbar-collapse flex-column align-items-stretch mt-2" id="#adminDropdown">
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="dashboard.php">Dashboard</a>
