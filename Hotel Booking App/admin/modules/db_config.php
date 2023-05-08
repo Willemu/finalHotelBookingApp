@@ -44,5 +44,7 @@ function select($sql,$values,$datatypes)
     else{
         die("Query cannot be prepared - Select4");
     }
+
+    function update();
 }
 
