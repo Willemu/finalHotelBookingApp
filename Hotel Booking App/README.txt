@@ -7,4 +7,7 @@ Although I did not complete the entire project, because of time-constrainnts,
     * PHP Super Global usage
     * Session management
     * Form handlinAuthentication
-    * Front-end development for the UI with comments and classes
+    * UI with comments, naming conventions and classes
+    * UI fullt responsive for mobile, tablet and desktop
+    * Correct file and folder naming and placement in relation to the user front end and admin portal
+    * Colours contrast well and is consistent, Consitent alignment of elements
