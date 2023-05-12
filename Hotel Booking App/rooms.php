@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ultimate Hotels - ROOMS</title>
+  <title>Ultimate Hotels - Hotels</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <?php require("modules/links.php"); ?>
 
@@ -16,7 +16,7 @@
   <?php require("modules/header.php"); ?>
 
   <div class="my-5 px-4">
-    <h2 class="fw-bold h-font text-center">OUR ROOMS</h2>
+    <h2 class="fw-bold h-font text-center">OUR HOTELS</h2>
     <div class="h-line bg-dark">
     </div>
   </div>
