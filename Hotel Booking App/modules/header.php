@@ -22,17 +22,16 @@
         <li class="nav-item">
           <a class="nav-link me-2" href="about.php">About</a>
         </li>
-     </ul>
+      </ul>
       <div class="d-flex">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-outline-dark shadow-none me-lg-3 me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
-            Login
+          Login
         </button>
         <button type="button" class="btn btn-outline-dark shadow-none" data-bs-toggle="modal" data-bs-target="#registerModal">
-            Register
+          Register
         </button>
       </div>
     </div>
   </div>
 </nav>
-

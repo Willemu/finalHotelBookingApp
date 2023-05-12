@@ -24,18 +24,18 @@ adminLogin();
     <div class="container-fluid" id="main-content">
         <div class="row">
             <div class="col-lg-10 ms-auto p-4 overflow-hidden">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, asperiores. Consequatur, dolores distinctio placeat obcaecati eveniet aperiam officiis reiciendis id ex veritatis incidunt quaerat nulla ad at vel hic cumque?
             </div>
         </div>
     </div>
 
-<!--Link the script to the dashboardphp -->
+    <!--Link the script to the dashboardphp -->
     <?php require("modules/script.php"); ?>
 </body>
 

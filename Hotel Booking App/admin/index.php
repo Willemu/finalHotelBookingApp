@@ -1,14 +1,14 @@
 <?php
 
 //link the essentialsphp to the index
-   require("modules/essentials.php");
+require("modules/essentials.php");
 //link the db configfile to the index
-   require("modules/db_config.php");
- 
-   session_start();
-    if((isset($_SESSION['adminLogin']) && $_SESSION['adminLogin']==true)){
-      redirect("dashboard.php");
-    }
+require("modules/db_config.php");
+
+session_start();
+if ((isset($_SESSION['adminLogin']) && $_SESSION['adminLogin'] == true)) {
+   redirect("dashboard.php");
+}
 
 ?>
 
@@ -20,7 +20,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Admin Login Portal</title>
-<!--Make sure the linkphp file is linked in the Index -->   
+   <!--Make sure the linkphp file is linked in the Index -->
    <?php require("modules/links.php"); ?>
    <style>
       div.login-form {
@@ -63,15 +63,14 @@
          $row = mysqli_fetch_assoc($res);
          $_SESSION['adminlogin'] = true;
          $_SESSION['adminid'] = $row['id'];
-         redirect('dashboard.php');         
-      } 
-      else {
-        alert('error','Login failed - Invalid Credentials');
+         redirect('dashboard.php');
+      } else {
+         alert('error', 'Login failed - Invalid Credentials');
       }
    }
-?>
-<!--Link the scriptphp to the Indexphp -->
-  <?php require("modules/script.php"); ?>
+   ?>
+   <!--Link the scriptphp to the Indexphp -->
+   <?php require("modules/script.php"); ?>
 
 </body>
 

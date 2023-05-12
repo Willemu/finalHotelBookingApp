@@ -74,12 +74,11 @@ require("modules/essentials.php");
 
     <?php require("modules/script.php"); ?>
 
-<!--Ask assistance with why the JSON.parse gives an error -->
+    <!--Ask assistance with why the JSON.parse gives an error -->
     <script>
         let general_data;
 
-        function get_general()
-        {
+        function get_general() {
             let site_title = document.getElementById("site_title");
             let site_about = document.getElementById("site_about");
 
@@ -87,10 +86,10 @@ require("modules/essentials.php");
             let site_about_inp = document.getElementById("site_about_inp");
 
             let xhr = new XMLHttpRequest();
-            xhr.open("POST","ajax/settings_crud.php",true);
+            xhr.open("POST", "ajax/settings_crud.php", true);
             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-            xhr.onload = function(){
+            xhr.onload = function() {
                 console.log(this.responseText);
                 general_data = JSON.parse(this.responseText);
 
@@ -130,10 +129,9 @@ require("modules/essentials.php");
         //     xhr.send('site_title='+site_title_val+'&site_about='+site_about_val+'&upd_general');  
         // }    
 
-        window.onload = function(){
+        window.onload = function() {
             get_general();
         }
-
     </script>
 </body>
 
