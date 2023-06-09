@@ -77,6 +77,7 @@ require("modules/essentials.php");
     <!--Ask assistance with why the JSON.parse gives an error -->
     <script>
         let general_data;
+        
 
         function get_general() {
             let site_title = document.getElementById("site_title");
@@ -86,11 +87,10 @@ require("modules/essentials.php");
             let site_about_inp = document.getElementById("site_about_inp");
 
             let xhr = new XMLHttpRequest();
-            xhr.open("POST", "ajax/settings_crud.php", true);
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.open("POST", "ajax/settings_crud.php",true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
 
             xhr.onload = function() {
-                console.log(this.responseText);
                 general_data = JSON.parse(this.responseText);
 
                 site_title.innerText = general_data.site_title;
@@ -103,31 +103,34 @@ require("modules/essentials.php");
             xhr.send('get_general');
         }
 
-        // function upd_general(site_title_val, site_about_val)
-        // {
-        //     let site_title = document.getElementById("site_title");
-        //     let site_about = document.getElementById("site_about");
+        function upd_general(site_title_val, site_about_val) 
+        {
+            
 
-        //     let site_title_inp = document.getElementById("site_title_inp");
-        //     let site_about_inp = document.getElementById("site_about_inp");
+            let xhr = new xmlhttprequest();
+            xhr.open("post", "ajax/settings_crud.php", true);
+            xhr.setrequestheader('content-type', 'application/json');
 
-        //     let xhr = new XMLHttpRequest();
-        //     xhr.open("POST","ajax/settings_crud.php",true);
-        //     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onload = function() {
+                console.log(this.responseText);
+                // general_data = json.parse(this.responsetext);
 
-        //     xhr.onload = function(){
-        //         general_data = JSON.parse(this.responseText);
+                // site_title.innertext = general_data.site_title;
+                // site_about.innertext = general_data.site_about;
 
-        //         site_title.innerText = general_data.site_title;
-        //         site_about.innerText = general_data.site_about;
+                // site_title_inp.value = general_data.site_title;
+                // site_about_inp.value = general_data.site_about;
 
-        //         site_title_inp.value = general_data.site_title;
-        //         site_about_inp.value = general_data.site_about;
+            }
 
-        //     }
+            // let site_title = document.getelementbyid("site_title");
+            // let site_about = document.getelementbyid("site_about");
 
-        //     xhr.send('site_title='+site_title_val+'&site_about='+site_about_val+'&upd_general');  
-        // }    
+            // let site_title_inp = document.getelementbyid("site_title_inp");
+            // let site_about_inp = document.getelementbyid("site_about_inp");
+
+            xhr.send('site_title='+site_title_val+'&site_about='+site_about_val+'&upd_general');
+        }
 
         window.onload = function() {
             get_general();
