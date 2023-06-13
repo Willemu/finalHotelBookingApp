@@ -88,7 +88,7 @@ require("modules/essentials.php");
 
             let xhr = new XMLHttpRequest();
             xhr.open("POST", "ajax/settings_crud.php",true);
-            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
             xhr.onload = function() {
                 general_data = JSON.parse(this.responseText);
@@ -133,7 +133,7 @@ require("modules/essentials.php");
         }
 
         window.onload = function() {
-            get_general();
+            upd_general();
         }
     </script>
 </body>
