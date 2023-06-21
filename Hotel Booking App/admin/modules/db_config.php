@@ -61,6 +61,6 @@ function update($sql,$values,$datatypes)
          }
      } 
      else{
-        die("Query cannot be prepared - Select4");
+        die("Query cannot be prepared - Update");
      }
  }
